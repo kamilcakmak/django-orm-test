@@ -1,0 +1,3 @@
+A table can be create for only last 48 hours navigation data. Then a scheduled task function can be write for update this table.
+So each time the client requests goes to the precalculated new table instaead of the NavigationRecord table. 
+I think this will improve performance for the database and therefore the application.
