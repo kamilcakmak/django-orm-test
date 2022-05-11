@@ -2,10 +2,10 @@
 
 #Prerequisites
 
-#1. Install Python
+#1 Install Python
 Install python-3.7.2 and python-pip. Follow the steps from the below reference document based on your Operating System. Reference: https://docs.python-guide.org/starting/installation/
 
-#2. Setup virtual environment
+#2 Setup virtual environment
 Install virtual environment
 sudo pip install virtualenv
 
@@ -32,19 +32,19 @@ Activate virtual environment
 workon myvenv
 
 
-#3. Clone git repository
+#3 Clone git repository
 git clone "https://github.com/kamilcakmak/django-orm-test.git"
 
-#5. Install requirements
+#4 Install requirements
 cd simple-django-project/
 pip install -r requirements.txt
 
-#6. Run the Server
+#5 Run the Server
 python manage.py runserver
 
 Try opening http://127.0.0.1:8000 in the browser.
 
-#9. URLs
+#6 URLs
  Question 1
 http://127.0.0.1:8000/q1/
 
