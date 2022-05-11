@@ -18,17 +18,17 @@ virtualenv ./envs/
 -Activate virtual environment
 source envs/bin/activate
 
-for windows;
-Install virtual environment
+*for windows;
+-Install virtual environment
 pip3 install virtualenvwrapper-win
 
-Make a directory
+-Make a directory
 mkdir envs
 
-Create virtual environment
+-Create virtual environment
 mkvirtualenv myvenv
 
-Activate virtual environment
+-Activate virtual environment
 workon myvenv
 
 
@@ -45,12 +45,12 @@ python manage.py runserver
 Try opening http://127.0.0.1:8000 in the browser.
 
 # 6. URLs
- Question 1
+-Question 1
 http://127.0.0.1:8000/q1/
 
 ![q1](https://user-images.githubusercontent.com/71510521/167818334-8e43707a-42bf-44ee-ab30-e6307a488602.PNG)
 
- Question 2
+-Question 2
 http://127.0.0.1:8000/q1/
 
 ![q2](https://user-images.githubusercontent.com/71510521/167818569-840ffb94-dfc9-4ba5-b66c-71d6ed03c6c6.PNG)
@@ -58,7 +58,7 @@ http://127.0.0.1:8000/q1/
 entity-relationship diagram
 ![operation1](https://user-images.githubusercontent.com/71510521/167818662-c6e7322e-a409-4cd0-a42a-757596c6139a.png)
 
- admin page
+-admin page
 http://127.0.0.1:8000/admin/
 
 user:evrk
