@@ -1,5 +1,7 @@
-##Installation
+#Installation
+
 #Prerequisites
+
 #1. Install Python
 Install python-3.7.2 and python-pip. Follow the steps from the below reference document based on your Operating System. Reference: https://docs.python-guide.org/starting/installation/
 
@@ -31,7 +33,7 @@ workon myvenv
 
 
 #3. Clone git repository
-git clone "https://github.com/Manisha-Bayya/simple-django-project.git"
+git clone "https://github.com/kamilcakmak/django-orm-test.git"
 
 #5. Install requirements
 cd simple-django-project/
